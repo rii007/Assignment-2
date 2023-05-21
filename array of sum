@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int  main(){
+    int n,i,arr1[100],arr2[100],s[100];
+    cin>>n;
+    for(i=0;i<n;i++){
+        cin>>arr1[i]>>arr2[i];
+        s[i]=arr1[i]+arr2[i];
+        cout<<s[i];
+    }
+    return 0;
+}
