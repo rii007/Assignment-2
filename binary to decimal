@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-   int n,p,s=0,i=1,r;  
+   int n,s=0,i=1,r;  
    cin>>n;
-    p=n; 
+    
     while ( n> 0)  
     {  
      r=n%10;   
